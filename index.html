@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Hello!</title>
-</head>
-<body>
 
-<h1>Hello!</h1>
-</body>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> GitHub-API </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/design.js"></script>
+    <script src="js/main.js"></script>       
+  </head>
+
+    <body>
+      <a><img id="github" src="https://www.drupal.org/files/project-images/GitHub-Mark.png"/></a>
+
+     <div id="data" class="form">
+       <form>   
+          <input id="username" type="search" value="" placeholder="Search username...">
+          <input id="search_button" type="button" value="Search" onclick="search(document.getElementById('login'));">
+       </form>
+
+       <div id="user_info"></div>
+    
+     </div>
+    </body>
 </html>

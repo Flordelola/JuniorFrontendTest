@@ -1,0 +1,153 @@
+#github {
+display: block;
+margin: auto;
+width: 6%;
+}
+
+.form {
+background-color: #f5f0ee;
+width: 19%;
+height: 5%;
+padding: 2% 2% 2% 2%;
+border: solid thin #d5c8c3;
+border-radius: 10px;
+margin: auto;
+}
+
+.data {
+  background-color: white;
+  width: 490px;
+  max-height: 100%;
+  padding: 2% 2% 2% 2%;
+  border: solid thin #d5c8c3;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#username {
+  border: solid thin lightgray;
+  border-radius: 5px;
+  width: 75%;
+  height: 30px;
+  font-family: ubuntu;
+}
+
+#search_button {
+border: solid thin #d5c8c3;
+color: grey;
+border-radius: 5px;
+width: 20%;
+height: 33px;
+background: whitesmoke;
+}
+
+#search_button:hover {
+background-color: lightgray; 
+color: white;
+}
+
+.error {
+background-color: #f5f0ee;
+width: 19%;
+height: 5%;
+padding: 2% 2% 2% 2%;
+border: solid thin #d5c8c3;
+border-radius: 10px;
+margin: auto;
+}
+
+#error_div {
+text-align: left;
+color: #9c0018;
+border-radius: 10px;
+background-color:#f6b5bf;
+width: 90%;
+height: 35px;
+margin-top: 8px;
+padding: 8% 2% 2% 5%;
+Font-family: ubuntu;
+}
+
+#avatar {
+position: relative;
+padding: 10px 5px 5px 5px;
+width: 75px;
+height: 75px;
+}
+
+#login {
+position: relative;
+font-style: italic;
+top: -100px;
+left: 85px;
+Font-family: ubuntu;
+}
+
+#fullname {
+position: relative;
+top: -120px;
+left: 85px;
+Font-family: ubuntu;
+}
+
+#bio {
+position: relative;
+top: -142px;
+left: 85px;
+}
+
+#list_title {
+position: relative;
+top: -130px;
+font-family: ubuntu;
+}
+
+#title_hr {
+position: relative;
+top: -135px;
+height: 5px;
+background-color: black;
+}
+
+.repos_list {
+position: relative;
+top: -110px;
+left: 5px;
+font-weight: bold;
+Font-family: ubuntu;
+font-size: 15px;
+border-bottom: solid thin;
+}
+
+.number_star {
+position: relative;
+width: 5px;
+top: -153px;
+left: 408px;
+float: left;
+}
+
+.star_img {
+width: 15px;
+height: 15px;
+position: relative;
+top: -153px;
+left: 380px;
+float: left;
+}
+
+.number_fork {
+position: relative;
+top: -153px;
+left: 436px;
+}
+
+.fork_img {
+width: 15px;
+height: 15px;
+position: relative;
+top: -153px;
+left: 430px;
+float: left;
+}
+
