@@ -46,9 +46,9 @@ class Design {
     createElement(userInfo, login, 'p', 'login')
     .innerHTML = r.login;
     createElement(userInfo, fullName, 'h1', 'fullname')
-    .innerHTML = (r.name || "Name unavailable");
+    .innerHTML = (r.name || "Name not available");
     createElement(userInfo, bio, 'p', 'bio')
-    .innerHTML = (r.bio || "Bio unavailable");
+    .innerHTML = (r.bio || "Bio not available");
   }
 
   static displayList(data) {
